@@ -28,3 +28,45 @@ In Slovenian, for example, the same thing would look like this:
 <ul>25 volkov</ul>
 <ul>...</ul>
 </li>
+
+
+Usage
+------------
+
+```objc
+XEEPluralizer* pluralizerWolf = [[XEEPluralizer alloc] initWithWordForms:
+  @{kXEEPluralizerFormSingular : NSLocalizedString(@"wolfSingular", nil),
+    kXEEPluralizerFormDual : NSLocalizedString(@"wolfDual", nil),
+    kXEEPluralizerFormPaucal : NSLocalizedString(@"wolfPaucal", nil),
+    kXEEPluralizerFormPlural : NSLocalizedString(@"wolfPlural", nil)
+  }];
+    
+for (int i = 0; i< 100; i++) {
+  NSLog(@"%@", [pluralizerWolf pluralizedSyntagmForQuantity:N]);
+}
+```
+
+Localizable.strings // English
+```
+"wolfSingular" = "wolf";
+"wolfPlural" = "wolves";
+```
+
+Localizable.strings // Croatian
+```
+"wolfSingular" = "vuk";
+"wolfPaucal" = "vuka";
+"wolfPlural" = "vukova";
+```
+
+Localizable.strings // Slovenian
+```
+"wolfSingular" = "volk";
+"wolfDual" = "volkova";
+"wolfPaucal" = "volkovi";
+"wolfPlural" = "volkov";
+```
+
+
+
+
