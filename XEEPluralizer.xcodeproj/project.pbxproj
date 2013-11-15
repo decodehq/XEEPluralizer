@@ -60,6 +60,9 @@
 		A7A1034718366A5B00E95513 /* hr */ = {isa = PBXFileReference; lastKnownFileType = file; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A7A1034818366A5B00E95513 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7A1034918366AE200E95513 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7A1034A18366DA400E95513 /* sl-SI */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sl-SI"; path = "sl-SI.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A7A1034B18366DA400E95513 /* sl-SI */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sl-SI"; path = "sl-SI.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A7A1034C18366DA400E95513 /* sl-SI */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sl-SI"; path = "sl-SI.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +240,7 @@
 				en,
 				Base,
 				hr,
+				"sl-SI",
 			);
 			mainGroup = A7A102F51836473900E95513;
 			productRefGroup = A7A102FF1836473900E95513 /* Products */;
@@ -306,6 +310,7 @@
 			children = (
 				A7A1030B1836473900E95513 /* en */,
 				A7A1034618366A5B00E95513 /* hr */,
+				A7A1034A18366DA400E95513 /* sl-SI */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 			children = (
 				A7A1032A1836473900E95513 /* en */,
 				A7A1034818366A5B00E95513 /* hr */,
+				A7A1034C18366DA400E95513 /* sl-SI */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -325,6 +331,7 @@
 				A7A1034418366A4400E95513 /* Base */,
 				A7A1034718366A5B00E95513 /* hr */,
 				A7A1034918366AE200E95513 /* en */,
+				A7A1034B18366DA400E95513 /* sl-SI */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

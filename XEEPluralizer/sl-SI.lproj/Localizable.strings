@@ -6,5 +6,7 @@
   Copyright (c) 2013 Andrija Cajic. All rights reserved.
 */
 
-"wolfSingular" = "wolf";
-"wolfPlural" = "wolves";
+"wolfSingular" = "volk";
+"wolfDual" = "volkova";
+"wolfPaucal" = "volkovi";
+"wolfPlural" = "volkov";

@@ -19,8 +19,9 @@
 {
     [super viewDidLoad];
     XEEPluralizer* pluralizerWolf = [[XEEPluralizer alloc] initWithWordForms:@{kXEEPluralizerFormSingular : NSLocalizedString(@"wolfSingular", nil),
-                                                                               kXEEPluralizerFormPlural : NSLocalizedString(@"wolfPlural", nil),
-                                                                               kXEEPluralizerFormPaucal : NSLocalizedString(@"wolfPaucal", nil)
+                                                                               kXEEPluralizerFormDual : NSLocalizedString(@"wolfDual", nil),
+                                                                               kXEEPluralizerFormPaucal : NSLocalizedString(@"wolfPaucal", nil),
+                                                                               kXEEPluralizerFormPlural : NSLocalizedString(@"wolfPlural", nil)
                                                                                }];
     
     for (int i = 0; i< 10; i++) {
