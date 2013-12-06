@@ -21,13 +21,28 @@ In Slovenian, for example, the same thing would look like this:
 <ul>4 volkova</ul>
 <ul>5 volkov</ul>
 <ul>6 volkov</ul>
+<ul>7 volkov</ul>
 <ul>...</ul>
-<ul>20 volkov</ul>
-<ul>21 volk</ul>
-<ul>22 volkova</ul>
-<ul>23 volkova</ul>
-<ul>24 volkova</ul>
-<ul>25 volkov</ul>
+</li>
+
+In Croatian and Serbian, on the other hand, it would look like this:
+<li>
+<ul>1 vuk</ul>
+<ul>2 vuka</ul>
+<ul>3 vuka</ul>
+<ul>4 vuka</ul>
+<ul>5 vukova</ul>
+<ul>6 vukova</ul>
+<ul>...</ul>
+<ul>11 vukova</ul>
+<ul>12 vukova</ul>
+<ul>...</ul>
+<ul>20 vukova</ul>
+<ul>21 vuk</ul>
+<ul>22 vuka</ul>
+<ul>23 vuka</ul>
+<ul>24 vuka</ul>
+<ul>25 vukova</ul>
 <ul>...</ul>
 </li>
 
