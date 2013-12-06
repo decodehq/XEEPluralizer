@@ -18,7 +18,7 @@
     return self;
 }
 
--(NSString*)grammaticalNumber:(NSUInteger)N
+-(NSString*)grammaticalNumber:(int)N
 {
     NSString* lang = [[NSLocale preferredLanguages] objectAtIndex:0];
     if ([@[@"hr", @"sr", @"bs"] containsObject:lang]) { // add accompanying languages, a lot of Slavic languages go here
@@ -33,7 +33,7 @@
 }
     
 /** Croatian, Serbian, Bosnian, Slovenian, ... */
--(NSString*)grammaticalNumber_HR:(NSUInteger)N
+-(NSString*)grammaticalNumber_HR:(int)N
 {
     N = abs(N) % 100;
     if (N / 10 == 1) {
@@ -55,38 +55,30 @@
 }
     
 /** English, German, French, Spanish, Italian, ... */
--(NSString*)grammaticalNumber_EN:(NSUInteger)N
+-(NSString*)grammaticalNumber_EN:(int)N
 {
     N = abs(N);
     return N == 1 ? kXEEPluralizerFormSingular : kXEEPluralizerFormPlural;
 }
     
 /** Slovenian, ... */
--(NSString*)grammaticalNumber_SL:(NSInteger)N
+-(NSString*)grammaticalNumber_SL:(int)N
 {
     N = abs(N) % 100;
+    if (N == 1) {
+        return kXEEPluralizerFormSingular;
+    }
     if (N == 2) {
         return kXEEPluralizerFormDual;
     }
-    if (N / 10 == 1) {
-        // if it is [10-20] it is always plural
-        return kXEEPluralizerFormPlural;
-    } else {
-        if (N % 10 == 1) {
-            // if it ends with 1, the following word is in singular
-            return kXEEPluralizerFormSingular;
-        }
-        if (N % 10 == 0 || N % 10 > 4) {
-            // if it ends with a digit that is higher than 4, it is plural
-            return kXEEPluralizerFormPlural;
-        } else {
-            // otherwise, it is paucal
-            return kXEEPluralizerFormPaucal;
-        }
+    if (N == 3 || N == 4) {
+        return kXEEPluralizerFormPaucal;
     }
+    return kXEEPluralizerFormPlural;
+
 }
 
--(NSString*) pluralizedWordForQuantity:(NSInteger)N
+-(NSString*) pluralizedWordForQuantity:(int)N
 {
     if (![self.wordForms objectForKey:[self grammaticalNumber:N]]) {
         return [self.wordForms objectForKey:[self grammaticalNumber_EN:N]]; // in case a word is not provided for some grammatical number, fall back to English (if N != 1, it is plural)
@@ -94,7 +86,7 @@
     return [self.wordForms objectForKey:[self grammaticalNumber:N]];
 }
 
--(NSString*) pluralizedSyntagmForQuantity:(NSInteger)N
+-(NSString*) pluralizedSyntagmForQuantity:(int)N
 {
     return [NSString stringWithFormat:@"%d %@", N, [self pluralizedWordForQuantity:N]];
 }

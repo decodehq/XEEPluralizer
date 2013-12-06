@@ -65,7 +65,7 @@ static NSString* const kXEEPluralizerFormDistributivePlural = @"kXEEPluralizerFo
  For value of parameter N = 4, paucal grammatical number of the word would be returned - \@"mjeseca".<br/>
  For value of parameter N = 7, plural grammatical number of the word would be returned - \@"mjeseci".<br/>
  */
--(NSString*) pluralizedWordForQuantity:(NSInteger)N;
+-(NSString*) pluralizedWordForQuantity:(int)N;
 
 /**
  @param N number of items
@@ -73,6 +73,6 @@ static NSString* const kXEEPluralizerFormDistributivePlural = @"kXEEPluralizerFo
  For value of parameter N = 4, paucal grammatical number of the word would be returned along with the N parameter - \@"4 mjeseca".<br/>
  For value of parameter N = 7, plural grammatical number of the word would be returned along with the N parameter - \@"7 mjeseci".<br/>
  */
--(NSString*) pluralizedSyntagmForQuantity:(NSInteger)N;
+-(NSString*) pluralizedSyntagmForQuantity:(int)N;
 
 @end
