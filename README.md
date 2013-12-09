@@ -5,7 +5,8 @@ XEEPluralizer
 
 XEEPluralizer is a class that helps you perform gramtically correct pluralization of the words in various languages.
 Pluralization is a trivial task for most of the well known world's langauges. But for some langages (mostly Slavic) it can be a nuisance.
-For example in English word "wolf" woulf be pluralized like this:
+
+For example, in English, the word "wolf" would be pluralized like this:
 <li>
 <ul>1 wolf</ul>
 <ul>2 wolves</ul>
