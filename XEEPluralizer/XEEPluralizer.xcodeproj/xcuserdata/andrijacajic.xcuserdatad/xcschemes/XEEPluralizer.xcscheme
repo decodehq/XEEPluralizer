@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A7A102FD1836473900E95513"
-               BuildableName = "XEEPluralizer.app"
+               BlueprintIdentifier = "A7FFD9C41855EF260020A2C4"
+               BuildableName = "libXEEPluralizer.a"
                BlueprintName = "XEEPluralizer"
                ReferencedContainer = "container:XEEPluralizer.xcodeproj">
             </BuildableReference>
@@ -32,22 +32,13 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A7A1031E1836473900E95513"
+               BlueprintIdentifier = "A7FFD9D41855EF260020A2C4"
                BuildableName = "XEEPluralizerTests.xctest"
                BlueprintName = "XEEPluralizerTests"
                ReferencedContainer = "container:XEEPluralizer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7A102FD1836473900E95513"
-            BuildableName = "XEEPluralizer.app"
-            BlueprintName = "XEEPluralizer"
-            ReferencedContainer = "container:XEEPluralizer.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -58,15 +49,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7A102FD1836473900E95513"
-            BuildableName = "XEEPluralizer.app"
-            BlueprintName = "XEEPluralizer"
-            ReferencedContainer = "container:XEEPluralizer.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -76,15 +58,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7A102FD1836473900E95513"
-            BuildableName = "XEEPluralizer.app"
-            BlueprintName = "XEEPluralizer"
-            ReferencedContainer = "container:XEEPluralizer.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

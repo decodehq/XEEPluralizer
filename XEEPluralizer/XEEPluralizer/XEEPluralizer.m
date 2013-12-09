@@ -31,7 +31,7 @@
         return [self grammaticalNumber_EN:N]; // This is the case for most of the major world's languages
     }
 }
-    
+
 /** Croatian, Serbian, Bosnian, Slovenian, ... */
 -(NSString*)grammaticalNumber_HR:(int)N
 {
@@ -53,14 +53,14 @@
         }
     }
 }
-    
+
 /** English, German, French, Spanish, Italian, ... */
 -(NSString*)grammaticalNumber_EN:(int)N
 {
     N = abs(N);
     return N == 1 ? kXEEPluralizerFormSingular : kXEEPluralizerFormPlural;
 }
-    
+
 /** Slovenian, ... */
 -(NSString*)grammaticalNumber_SL:(int)N
 {
@@ -75,7 +75,7 @@
         return kXEEPluralizerFormPaucal;
     }
     return kXEEPluralizerFormPlural;
-
+    
 }
 
 -(NSString*) pluralizedWordForQuantity:(int)N

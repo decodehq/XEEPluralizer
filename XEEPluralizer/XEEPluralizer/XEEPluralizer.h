@@ -54,8 +54,8 @@ static NSString* const kXEEPluralizerFormDistributivePlural = @"kXEEPluralizerFo
 
 /**
  @param wordForms e.g. Croatian word "month" <br/>@{kXEEPluralizerFormSingular : \@"mjesec",
-    kXEEPluralizerFormPaucal : \@"mjeseca",
-    kXEEPluralizerFormPlural : \@"mjeseci"}
+ kXEEPluralizerFormPaucal : \@"mjeseca",
+ kXEEPluralizerFormPlural : \@"mjeseci"}
  */
 -(id)initWithWordForms:(NSDictionary*)wordForms;
 

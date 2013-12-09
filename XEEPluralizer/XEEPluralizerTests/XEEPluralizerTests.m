@@ -2,8 +2,8 @@
 //  XEEPluralizerTests.m
 //  XEEPluralizerTests
 //
-//  Created by Andrija Cajic on 15/11/13.
-//  Copyright (c) 2013 Andrija Cajic. All rights reserved.
+//  Created by Andrija Cajic on 09/12/13.
+//  Copyright (c) 2013 XEE Tech. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
