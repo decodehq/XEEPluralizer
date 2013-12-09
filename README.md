@@ -47,6 +47,13 @@ In Croatian and Serbian, on the other hand, it would look like this:
 </li>
 
 
+Grammatical numbers
+------------
+
+Most common grammatical numbers are *Singular* and *Plural*. In theory, beside these there are also *Dual*, *Trial*, *Quadral*, *Paucal*, ...
+Some of these exist only in theory and aren't used in any official language (Trial, Quadral). Some are very rare (Dual) and some are normal occurance in many languages (Paucal).
+
+
 Usage
 ------------
 
