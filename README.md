@@ -5,7 +5,8 @@ XEEPluralizer
 
 XEEPluralizer is a class that helps you perform gramtically correct pluralization of the words in various languages.
 Pluralization is a trivial task for most of the well known world's langauges. But for some langages (mostly Slavic) it can be a nuisance.
-For example in English word "wolf" woulf be pluralized like this:
+
+For example, in English, the word "wolf" would be pluralized like this:
 <li>
 <ul>1 wolf</ul>
 <ul>2 wolves</ul>
@@ -45,6 +46,13 @@ In Croatian and Serbian, on the other hand, it would look like this:
 <ul>25 vukova</ul>
 <ul>...</ul>
 </li>
+
+
+Grammatical numbers
+------------
+
+Most common grammatical numbers are *Singular* and *Plural*. In theory, beside these there are also *Dual*, *Trial*, *Quadral*, *Paucal*, ...
+Some of these exist only in theory and aren't used in any official language (*Trial*, *Quadral*). Some are very rare (*Dual*) and some are normal occurance in many languages (*Paucal*).
 
 
 Usage
