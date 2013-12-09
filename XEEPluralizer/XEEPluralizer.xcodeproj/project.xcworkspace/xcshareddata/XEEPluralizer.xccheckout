@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4B5D1C6A-1C6B-461C-99D1-B6E1957283A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>XEEPluralizer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F1A22BCC-574A-4AE6-91C7-B86DEB22F3B4</key>
+		<string>https://github.com/XEEtech/XEEPluralizer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>XEEPluralizer/XEEPluralizer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F1A22BCC-574A-4AE6-91C7-B86DEB22F3B4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/XEEtech/XEEPluralizer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F1A22BCC-574A-4AE6-91C7-B86DEB22F3B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1A22BCC-574A-4AE6-91C7-B86DEB22F3B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XEEPluralizer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
